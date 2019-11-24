@@ -16,17 +16,18 @@
 - **The idea is for every min - categorie we scrawl all pages.**
 - **To execute this,we put a while_loop with condition produtc_items != [].To activate we put product_items =[page_1].Right after while_loop,we put empty lists like titles,prices,images,reviews,stars.This makes sure we just insert new page data.Right before end loop , we increase page by 1 unit to prepare for next loop *
 
-:::info
+
+''' 
  product_items = [page_1_data]
  while product_items != [] :
     titles, images, prices , reviews ,stars = [], [], [] , [] , []
+    
     *scrawling main part*
     
     *Insert into database*
     
     *increase page number*
-    
-:::
+'''    
 - **But the milestone here is the way we track process.We continue sql command to track in pg webpage.We usually refresh page and watch if distinct_cat_id number and id number really go up**
 :::info
  SELECT COUNT(DISTINCT cat_id),COUNT(id) FROM tiki ;
