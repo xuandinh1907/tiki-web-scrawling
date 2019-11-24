@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Tiki products (LIMIT 50 SMARTPHONE)</title>
+</head>
+<body>
+  
+        <table border="1">
+            <tr>
+                <th align="center">id</th>
+                <th align="center">Categorie</th>
+                <th align="center">Name</th>
+                <th align="center">Price</th>
+                <th align="center">Review number</th>
+                <th align="center">Stars rated</th>
+            </tr>
+            {% for product in products %}
+            <tr valign="top">
+                <td align="right"> {{ product[0] }}</td>
+                <td align="left">{{ product[1] }}</td>
+                <td align="left">{{ product[2] }}</td>
+                <td align="left">{{ product[3] }}đ</td>
+                <td align="center">{{ product[4] }}</td>
+                <td align="center">{{ product[5] }}</td>
+            </tr>
+            {% endfor %}
+        </table>
+    
+</body>
+</html>
