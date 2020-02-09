@@ -1,4 +1,4 @@
-# Dinh_Tuc_week_2
+# Tiki Web scraping
 ---
 ## Introduction : we scrawl data of all products , save them in our database and then reload onto our table - form tiki version
 ---
