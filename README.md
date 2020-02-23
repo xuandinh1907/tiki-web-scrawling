@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Tiki Web scrawling
 ## Introduction
 *In this project we try to scrawl all categories of tiki website,save them in our own database and reload later*
@@ -8,7 +7,6 @@ templates templates/index.html templates/table.html
 app.py
 display.py
 lyst_category.py
-query.sql
 
 ## Process
 ### Find all categories
