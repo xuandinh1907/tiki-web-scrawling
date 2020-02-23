@@ -1,5 +1,5 @@
 SELECT COUNT(DISTINCT cat_id),COUNT(id) FROM tiki;
-SELECT * FROM CATEGORIES WHERE PARENT_ID = 21 ;
+SELECT COUNT(id) FROM categories ;
 SELECT * FROM TIKI ORDER BY ID DESC;
 
 CREATE TABLE tiki (
@@ -13,7 +13,7 @@ CREATE TABLE tiki (
     stars INT
 );
 
-SELECT a.* FROM categories as a LEFT JOIN categories as b ON a.id = b.parent_id WHERE b.id IS NULL ORDER BY a.id LIMIT 5 OFFSET 10;
+SELECT a.* FROM categories as a LEFT JOIN categories as b ON a.id = b.parent_id WHERE b.id IS NULL ORDER BY a.id ;
 
 SELECT * FROM tiki WHERE cat_id = 1;
 
