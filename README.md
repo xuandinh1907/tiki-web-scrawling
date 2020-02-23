@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Tiki Web scrawling
 ## Introduction
 *In this project we try to scrawl all categories of tiki website,save them in our own database and reload later*
@@ -18,3 +19,4 @@ query.sql
 
 ### Display all products in table form
 *After scrawling successfully,you guys can display in table form or card form.`display.py` contains the function help you guys reload from your own databse(remember changing this as well !).You guys can choose the display form by chosing render to `table.html`(limit 50 products) or `index.html` (limit 10 products)*
+
