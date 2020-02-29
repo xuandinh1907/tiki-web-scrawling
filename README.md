@@ -11,7 +11,8 @@
 
 # Process
 ## Find all categories
-*There maybe a wide range of categories. Some are main categorie,which means they don't have parent at all.Some are minimum sub categorie,which means no children belongs to them.The rest have both children and parents.Our task in this section is find all possible parent categories.Code is available in `lyst_category.py`.You guys can type `python lyst_category.py` to execute this mission*
+*There maybe a wide range of categories. Some are main categorie,which means they don't have parent at all.Some are minimum sub categorie,which means no children belongs to them.The rest have both children and parents.Our task in this section is find all possible parent categories.Code is available in `lyst_category.py`.You guys can type 
+`python lyst_category.py` to execute this mission*
 
 ## Scrawl all products of all categories
 *After we have full kind of categories.Now we can use beautiful soup library to scrawl.Code is available in `app.py`.You guys just type `python app.py` to execute this task.Note that you guys need to change to your own database!*
