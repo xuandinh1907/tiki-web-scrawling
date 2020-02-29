@@ -1,13 +1,13 @@
 # Overview
 *In this project we try to scrawl all categories of tiki website,save them in our own database and reload later*
 
-![](images/tiki.png)
+![](images/danh-gia-kinh-nghiem-mua-hang-tren-tiki-21.jpg)
 
 # Project structure
-templates templates/index.html templates/table.html
-app.py
-display.py
-lyst_category.py
+- templates templates/index.html templates/table.html
+- app.py
+- display.py
+- lyst_category.py
 
 # Process
 ## Find all categories
